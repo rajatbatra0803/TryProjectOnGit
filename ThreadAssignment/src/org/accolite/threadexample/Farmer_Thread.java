@@ -5,7 +5,7 @@ public class Farmer_Thread implements Runnable {
 	//Integer i;
 	ResultStore r;
 	Scanner sc = new Scanner(System.in);
-	Farmer_Thread(int quantity,ResultStore r)
+	public Farmer_Thread(int quantity,ResultStore r)
 	
 	{
 		this.quantity=quantity;

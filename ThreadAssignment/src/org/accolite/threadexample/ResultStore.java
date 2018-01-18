@@ -7,9 +7,9 @@ public class ResultStore {
 	int size=10;
 	int empty=10;
 	int full=0;
-	HashMap<String,Integer> market;
+	public HashMap<String,Integer> market;
 	
-	ResultStore()
+ public ResultStore()
 	{
 		market = new HashMap<>();
 		market.put("apple", 0);
